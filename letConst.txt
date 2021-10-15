@@ -1,0 +1,11 @@
+const PI = 3.14;
+
+- var and let are different because let will only allow you to declare a variable once, whereas you can redeclare a variable as much as you want with var.
+Also, if you declare a variable in the console with var, it will be saved to windows, but declaring in the conosle with let will not allow this. Also, var can be 
+declared inside a code-block and still be recognized in the console, whereas let cannot. Hoisting also occurs in var and not let.
+- When you declare a variable with const, that variable cannot change, but you can declare a variable unlimited times with var; you can also change the value of a 
+variable with var but cannot with const. Additionally, hoisting does not occur in const.
+- You cannot declare variables twice with either let or const, but you can change the value of a variable with let. You cannot change the value of a variable with const 
+after that variable has been declared using const. 
+- Hoisting occurs in var because even if the variable is declared in the middle of the code using var, the code will read the var declaration first before all else, which makes it 
+so if you try to use the variable before it is declared in the document, it will just come up as undefined in the console rather than having an error.

@@ -1,0 +1,51 @@
+.above-grid {
+    display: grid;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(1, 100px);
+    justify-content: center;
+    margin: auto;
+}
+
+.game-grid {
+    display: grid;
+    background-color: blue;
+    height: 600px;
+    width: 700px;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(6, 100px);
+    justify-content: center;
+    margin: auto;
+}
+
+.cell {
+    background-color: white;
+    border-radius: 50%;
+    border: 6px solid blue;
+}
+
+.red-piece-above {
+    background-color: red;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.yellow-piece-above {
+    background-color: yellow;
+    border-radius: 50%;
+    border: 6px solid white;
+}
+
+.red-piece {
+    background-color: red;
+    border-radius: 50%;
+    border: 6px solid blue;
+}
+
+.yellow-piece {
+    background-color: yellow;
+    border-radius: 50%;
+    border: 6px solid blue;
+}
